@@ -20,30 +20,31 @@ Some results in the offer situation:
 
 **Таблица** Identification of the profession according to which LLM-player A plays. Distances L2 between vectors from Ari, i∈{1,…,10} and Arx, for LLM-player A. The lower the value, the better.
 
-| Профессия | Qwen2.5-14b-Instruct | Phi-3.5-MoE-instruct | Gpt120b-oss | Qwen3-235B-A22B-Instruct |
-|-----------|----------------------|----------------------|-------------|---------------------------|
-| Руководитель | 0 | 0,47 | 0,95 | 0,18 |
-| Эксперт | 0,1 | 0,65 | 0,57 | 0,13 |
-| Техник | 0,1 | 0,48 | 0,84 | 0,3 |
-| Клерк | 0,1 | 0,5 | 0,92 | 0,3 |
-| Продавец | 0,1 | 0,52 | 0,88 | 0,29 |
-| СХРЛ | 0,28 | 0,63 | 0,87 | 0,2 |
-| Рабочий | 0,26 | 0,59 | 0,89 | 0,15 |
-| Оператор | 0,2 | 0,52 | 0,86 | 0,16 |
-| Разнорабочий | 0,2 | 0,56 | 0,95 | 0,18 |
-| Военный | 0,24 | 0,53 | 1,03 | 0,19 |
+| Profession | Qwen2.5-14b-Instruct | Phi-3.5-MoE-instruct | Gpt120b-oss | Qwen3-235B-A22B-Instruct |
+|------------|----------------------|----------------------|-------------|---------------------------|
+| Manager | 0 | 0.47 | 0.95 | 0.18 |
+| Expert | 0.1 | 0.65 | 0.57 | 0.13 |
+| Technician | 0.1 | 0.48 | 0.84 | 0.3 |
+| Clerk | 0.1 | 0.5 | 0.92 | 0.3 |
+| Salesperson | 0.1 | 0.52 | 0.88 | 0.29 |
+| Agricultural worker | 0.28 | 0.63 | 0.87 | 0.2 |
+| Worker | 0.26 | 0.59 | 0.89 | 0.15 |
+| Operator | 0.2 | 0.52 | 0.86 | 0.16 |
+| Laborer | 0.2 | 0.56 | 0.95 | 0.18 |
+| Military | 0.24 | 0.53 | 1.03 | 0.19 |
+
 
 **Таблица** Identification of the profession in accordance with which the LLM-advisor recommends player A to act. Distances L2 between vectors from Ari, i∈{1,…,10} and the vector Arx, for the LLM-advisor of player A. The lower the value, the better.
 
-| Профессия | Qwen2.5-14b-Instruct | Phi-3.5-MoE-instruct | Gpt120b-oss | Qwen3-235B-A22B-Instruct |
-|-----------|----------------------|----------------------|-------------|---------------------------|
-| Руководитель | 0,15 | 0,32 | 0,49 | 0,05 |
-| Эксперт | 0,15 | 0,49 | 0,64 | 0,27 |
-| Техник | 0,15 | 0,37 | 0,63 | 0,05 |
-| Клерк | 0,11 | 0,49 | 0,69 | 0,1 |
-| Продавец | 0,15 | 0,41 | 0,57 | 0,11 |
-| СХРЛ | 0,15 | 0,28 | 0,56 | 0,05 |
-| Рабочий | 0,15 | 0,31 | 0,6 | 0,11 |
-| Оператор | 0,15 | 0,32 | 0,44 | 0,05 |
-| Разнорабочий | 0,15 | 0,51 | 0,89 | 0,33 |
-| Военный | 0,21 | 0,32 | 0,71 | 0,07 |
+| Profession | Qwen2.5-14b-Instruct | Phi-3.5-MoE-instruct | Gpt120b-oss | Qwen3-235B-A22B-Instruct |
+|------------|----------------------|----------------------|-------------|---------------------------|
+| Manager | 0.15 | 0.32 | 0.49 | 0.05 |
+| Expert | 0.15 | 0.49 | 0.64 | 0.27 |
+| Technician | 0.15 | 0.37 | 0.63 | 0.05 |
+| Clerk | 0.11 | 0.49 | 0.69 | 0.10 |
+| Salesperson | 0.15 | 0.41 | 0.57 | 0.11 |
+| Agricultural worker | 0.15 | 0.28 | 0.56 | 0.05 |
+| Worker | 0.15 | 0.31 | 0.60 | 0.11 |
+| Operator | 0.15 | 0.32 | 0.44 | 0.05 |
+| Laborer | 0.15 | 0.51 | 0.89 | 0.33 |
+| Military | 0.21 | 0.32 | 0.71 | 0.07 |
